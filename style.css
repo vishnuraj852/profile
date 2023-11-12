@@ -291,16 +291,19 @@ footer{
 background: linear-gradient(153deg, rgba(208,202,245,1) 26%, rgba(30,167,255,1) 48%, rgba(26,127,151,1) 83%);
 font-family:'Playpen Sans', sans-serif ; 
   color: black;
-  font-weight: bolder;
+  /* font-weight: bolder; */
 }
 
 input::placeholder {
   text-align: center;
   color:white;
+  font-size: 25px;
 }
 
 input[type="submit"] {
   width: 150px;
   height: 50px;
   margin: auto;
+  color:white;
+  font-size: 25px;
 }
