@@ -1,0 +1,287 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body {
+    background: rgb(5,72,90);
+    background: linear-gradient(0deg, rgba(5,72,90,0.8268557422969187) 25%, rgba(232,46,30,1) 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    
+  }
+.navbar {
+        width: 100%;
+        height: 15%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        position: relative;
+        transition: text-decoration 0.3s ease-in-out;
+        
+      }
+
+.navbar a {
+        font-family: 'Playpen Sans', sans-serif;
+        display: inline-block;
+        text-decoration: none;
+        padding: 10px; 
+        color:white;
+          
+
+      }
+.navbar a:hover {
+        text-decoration: underline;
+        text-underline-offset: 5px;
+      }      
+
+      /* .hero {
+        width: 100%;
+        height: 100vh;
+        
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      
+      .hero-image {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 5px solid rgb(5, 72, 90);
+        overflow: hidden;
+        margin-left: 20px;
+      }
+      
+      .rounded-image {
+        border-radius: 50%;
+      }
+       */
+
+.hero{
+    width:300px;
+    height:300px;
+    margin-top: 200px;
+    margin-left: 120px;
+    overflow: hidden;
+    /* background-color: black; */
+}
+.rounded-image {
+  background-size: fixed;
+  height: 90%;
+  width: 90%;
+  border-radius: 50%;
+  background-clip: border-box;
+  border-color: grey;
+  border-width: 1.25px;
+  border-style: solid;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.9); 
+  
+}
+.about_me{
+  width:50%;
+  height: 200px;
+  color: white;
+  margin-top: 250px;
+  font-family: 'Playpen Sans', sans-serif;
+  font-size: 100px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container{
+  width: 100%;
+  display: flex;
+}
+
+.fa-angles-right {
+  font-size: 30px; /* Adjust as needed */
+  color: white;
+  transition: transform .03s ease-out;
+}
+.fa-angles-right:hover {
+  transform: rotate(90deg);
+}
+
+.about_hero{
+  font-family:'Playpen Sans', sans-serif;
+  color: white;
+  
+  
+  
+  font-weight: 40;
+  width: 70%;
+  font-size: 15px;
+  margin-left: 30%;
+  margin-top: 0;
+  padding-top: 0;
+
+}
+.works{
+  width: 100%;
+  height: 200px;
+  font-family:'Playpen Sans', sans-serif ;
+  text-align: center;
+  font-size: 100px;
+  margin-top: 250px;
+  color:aliceblue;
+   
+}
+/* }
+.works_card{
+  width: 80%;
+  height: 400px;
+  background-color: brown;
+  margin:auto;
+
+}
+
+.work1{
+    width:300px;
+    height:350px;
+    background-color: green;
+    overflow: hidden;
+    margin: 30px;
+}
+.work2{
+  width:300px;
+  height:350px;
+  background-color: green;
+  overflow: hidden;
+  margin: 100px;
+  display: inline;
+  display:flex;
+}
+.work3{
+  width:300px;
+  height:350px;
+  background-color: green;
+  overflow: hidden;
+  margin: 150px;
+} */
+
+.works_card {
+  display: flex;
+  justify-content: center;
+}
+
+.work1, .work2, .work3  {
+  width:300px;
+  height:350px;
+  /* border-color: grey;
+  border-width: 1.25px;
+  border-style: solid;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.9);  */
+  
+  background: rgb(24,132,100);
+  background: linear-gradient(153deg, rgba(24,132,100,1) 7%, rgba(24,132,100,1) 35%, rgba(255,0,0,1) 93%);
+  overflow: hidden;
+  margin: 50px;
+}
+.workcard1{
+  display: flex;
+  justify-content: center;
+}
+.work4, .work5, .work6  {
+  width:300px;
+  height:350px;
+  /* background-color: green; */
+  overflow: hidden;
+  margin: 50px;
+}
+.workimg{
+  width: 100%;
+  height: 70%;
+}
+.work_title{
+ font-family:'Playpen Sans', sans-serif ; 
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+.work_desc{
+  font-family:'Playpen Sans', sans-serif ; 
+  font-size: 15px;
+  text-align: center;
+  color: white;
+  padding: 2px;
+}
+
+.skillset{
+  width: 80%;
+  height: 300px;
+  /* background-color: brown; */
+  margin: auto;
+  padding-top: 50px;
+}
+
+.skill_row1{
+  display:flex;
+  justify-content: space-around;
+  text-align: center;
+  font-family:'Playpen Sans', sans-serif ; 
+  color:white;
+  font-size: 25px;
+
+}
+.skill_row2{
+  display:flex;
+  justify-content:space-evenly;
+  text-align: center;
+  font-family:'Playpen Sans', sans-serif ; 
+  color:white;
+  font-size: 25px;
+  margin-top: 75px;
+
+}
+
+.skill_row3{
+  display:flex;
+  justify-content:space-evenly;
+  text-align: center;
+  font-family:'Playpen Sans', sans-serif ; 
+  color:white;
+  font-size: 25px;
+  margin-top: 75px;
+
+}
+footer{
+  width: 100%;
+  height: 100px;
+  background-color: rgb(54, 69, 79);
+  text-align: center;
+  font-family:'Playpen Sans', sans-serif ; 
+  color: white;
+  padding-top: 50px;
+  overflow: hidden;
+}
+/* .hero_name{
+  color:white;
+  text-align: center;
+  font-size: 35px;
+  font-family:'Playpen Sans', sans-serif ;
+  text-decoration: underline;
+  
+} */
+.contact {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+.input {
+  display: flex;
+  justify-content: center;
+  margin-right: 50%;
+}

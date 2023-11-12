@@ -3,39 +3,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playpen+Sans">
+    <link  href="//cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>HOME</title>
 </head>
 <body>
-    <img src="./profile.jpg.jpg " width="200">
-    <h3>Vishnuraj C R</h3>
-    
-    <i>I'm an aspiring Full Stack Developer specializing in the MERN stack, currently pursuing an MCA degree. My experience includes building dynamic web applications with React.js, Node.js, Express.js, and MongoDB. I'm dedicated to continuous learning and applying my knowledge to create innovative and user-friendly solutions.</i>
-    <br>
-    <hr>
-    <b><h2>Education</h2></b>
-    <ul>
-        <li>SSLC     : CHERUPUSHPA HIGH SCHOOL</li>
-        <li>PLUS TWO : SACRED HEART HSS</li>
-        <li>BCA      : DEVAMATHA ARTS AND SCIENCE COLLEGE</li>
-        <li>MCA      : MACFAST THIRUVALLA</li>
-    </ul>
-    <hr>
-    <b><h2>EXPERIENCE</h2></b>
-    <ul>
-        <li>SALES TRAINEE AT JIO</li>
-        <li> DJANGO INTERN AT INMAKES</li>
-    </ul>
-    <hr>
-    <b><h2>SKILL SET</h2></b>
-    <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>PYTHON</li>
-        <li>PHP</li>
-    </ul>
-    <hr>
+    <nav class="navbar">
+    <a href="#">Home</a>
+    <a href="#">Gallery</a>
+    <a href="#skill">Services</a>
+    <a href="#works">Works</a>
+    <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="hero">
+          <img src="heroimg1.jpg" alt="Hero image" class="rounded-image" />
+         
+        </div>
+     <div class="about_me">About Me  &nbsp;   <a href="#"><i class="fa-solid fa-angles-right fa-beat fa-sm" id="icon"></i></a></div>
+     </div>
+     <!-- <div class="hero_name">VISHNURAJ C R</div> -->
+     <div class="about_hero">Hello!  I’m Vishnuraj C R currently pursuing my Master’s in Computer Applications (MCA) at Mar Athanasios College for Advanced Studies Tiruvalla (MACFAST). I completed my Bachelor’s in Computer Applications (BCA) in 2023 and have developed a strong passion for coding.
+
+      During my academic journey, I had the opportunity to intern at Inmakes Infotech as a Junior Full Stack Python Intern for 3 months. This experience allowed me to apply my theoretical knowledge in a practical setting and further fueled my interest in coding.
+      
+      I enjoy problem-solving and the logical thinking involved in coding. I’m always eager to learn new technologies and improve my skills. I believe that continuous learning and practical application are the keys to success in the ever-evolving field of technology.
+      
+      Looking forward to bringing my skills and passion to future opportunities and challenges! 😊
+      
+     </div>
+     <div class="works" id="works">My Works</div> 
+     <div class="works_card">
+      <div class="work1">
+        <img src="work1.jpg" class="workimg">
+        <p class="work_title">E-EDU</p>
+        <p class="work_desc">Education Application built on flask</p>
+        <p class="work_desc"><a href="#"><i class="fa-brands fa-github fa-2xl" style="color: #000000;"></i></a></p>
+      </div>
+      <div class="work2">
+        <img src="work2.png"class="workimg">
+        <p class="work_title">WEATHER APP</p>
+        <p class="work_desc">Weather Application built on Django</p>
+        <p class="work_desc"><a href="#"><i class="fa-brands fa-github fa-2xl" style="color: #000000;"></i></a></p>
+      </div>
+      <div class="work3">
+        <img src="work3.png"class="workimg">
+        <p class="work_title">ECOMMECRCE APP</p>
+        <p class="work_desc">Ecommerce Application built on Django</p>
+        <p class="work_desc"><a href="#"><i class="fa-brands fa-github fa-2xl" style="color: #000000;"></i></a></p>
+      </div>
+      </div>
+      <!-- <div class="workcard1">
+      <div class="work4"></div>
+      <div class="work5"></div>
+      <div class="work6"></div>
+      </div> -->
+     </div>
+    <div class="works" id="skill">My Skills</div>
+    <div class="skillset">
+      <div class="skill_row1"><p class="skill_design">HTML <i class="fa-brands fa-html5"></i></p><p class="skill_design">CSS <i class="fa-brands fa-css3"></i></p><p class="skill_design">JAVASCRIPT <i class="fa-brands fa-js"></i></p></div>
+      <div class="skill_row2"><p class="skill_design">PYTHON <i class="fa-brands fa-python"></i></p><p class="skill_design">PHP <i class="fa-brands fa-php"></i></div>
+      <div class="skill_row3"><p class="skill_design">MYSQL <i class="fa-solid fa-database"></i></p></div>
+    </div>
+    <div class="works" id="skill">Contact Me</div>
+    <div class="contact">
+      <form class="form">
+        <input type="text" placeholder="Your Name" name="name" class="input"><br>
+        <input type="addresss" placeholder="Your Message" name="message" class="input"><br>
+        <!-- HTML !-->
+<button class="button-46" role="button">Button 46</button>
+
+/* CSS */
+.button-46 {
+  align-items: center;
+  background-color: rgba(240, 240, 240, 0.26);
+  border: 1px solid #DFDFDF;
+  border-radius: 16px;
+  box-sizing: border-box;
+  color: #000000;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter, sans-serif;
+  font-size: 18px;
+  justify-content: center;
+  line-height: 28px;
+  max-width: 100%;
+  padding: 14px 22px;
+  text-decoration: none;
+  transition: all .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.button-46:active,
+.button-46:hover {
+  outline: 0;
+}
+
+.button-46:hover {
+  background-color: #FFFFFF;
+  border-color: rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 768px) {
+  .button-46 {
+    font-size: 20px;
+    min-width: 200px;
+    padding: 14px 16px;
+  }
+}
+      </form>
+    </div>
     <footer>
-        @ Vishnuraj C R. All right reserverd
+      <p>&#169; All rights resevered @ VISHNURAJ C R</p>
     </footer>
-</body> 
+    <script src="script.js"></script>
+</body>
 </html>
